@@ -52,4 +52,3 @@ def count_words(subreddit, word_list, word_count=[], after=None):
             # same as above
             # for key in sorted(nary, key=nary.get, reverse=True):
             #     print('{}: {}'.format(key, nary[key]))
-            

@@ -22,5 +22,4 @@ def recurse(subreddit, hot_list=[], after=""):
         after = req.get('data').get('after')
         return recurse(subreddit, hot_list, after)
     else:
-        return None
-        
+        return None   
